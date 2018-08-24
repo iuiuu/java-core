@@ -3,7 +3,10 @@ package com.iuiuu.utils;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-public class DateUtil {
+public final class DateUtil {
+    private DateUtil() {
+    }
+
     /**
      * String转Date
      *

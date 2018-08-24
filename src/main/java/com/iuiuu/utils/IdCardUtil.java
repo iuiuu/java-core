@@ -4,7 +4,9 @@ import java.util.Calendar;
 import java.util.Date;
 import java.util.regex.Pattern;
 
-public class IdCardUtil {
+public final class IdCardUtil {
+    private IdCardUtil() {
+    }
 
     // 身份证前17位数字本体码对应的加权因子
     private static final int[] WEIGHT_LIST = new int[]{7, 9, 10, 5, 8, 4, 2, 1, 6, 3, 7, 9, 10, 5, 8, 4, 2};

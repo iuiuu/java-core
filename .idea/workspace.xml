@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b8ccdb92-cdc0-4477-83d0-c99c6a0730a6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/iuiuu/utils/DateUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/iuiuu/utils/DateUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/iuiuu/utils/DateUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/iuiuu/utils/IdCardUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/iuiuu/utils/IdCardUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/iuiuu/utils/StringUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/iuiuu/utils/StringUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/iuiuu/IdCardNoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/iuiuu/IdCardNoTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -37,12 +38,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="2062" />
+          <entry key="java" value="2297" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2061" />
+          <entry key="JAVA" value="2296" />
           <entry key="RegExp" value="1" />
         </counts>
       </usages-collector>
@@ -59,11 +60,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/iuiuu/utils/IdCardUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1521">
-              <caret line="126" column="18" selection-start-line="126" selection-start-column="18" selection-end-line="126" selection-end-column="18" />
+            <state relative-caret-position="-3782">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2481#2482#0" expanded="true" />
@@ -85,8 +86,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/iuiuu/utils/DateUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+            <state relative-caret-position="95">
+              <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#537#538#0" expanded="true" />
@@ -99,20 +100,27 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/iuiuu/IdCardNoTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="8" column="39" lean-forward="true" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+            <state relative-caret-position="214">
+              <caret line="28" column="70" lean-forward="true" selection-start-line="28" selection-start-column="70" selection-end-line="28" selection-end-column="70" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/iuiuu/utils/StringUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="360">
+              <caret line="140" column="34" selection-start-line="140" selection-start-column="25" selection-end-line="140" selection-end-column="34" />
               <folding>
                 <element signature="e#193#194#0" expanded="true" />
                 <element signature="e#249#250#0" expanded="true" />
+                <element signature="e#727#728#0" expanded="true" />
+                <element signature="e#779#780#0" expanded="true" />
+                <element signature="e#1550#1551#0" expanded="true" />
+                <element signature="e#1603#1604#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -121,9 +129,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/src.zip!/java/lang/String.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="610" selection-start-line="610" selection-end-line="610" />
+            <state relative-caret-position="-131">
+              <caret line="2859" column="42" lean-forward="true" selection-start-line="2859" selection-start-column="42" selection-end-line="2859" selection-end-column="42" />
               <folding>
+                <element signature="e#22450#22451#0" expanded="true" />
                 <element signature="e#22485#22486#0" expanded="true" />
               </folding>
             </state>
@@ -145,10 +154,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/iuiuu/utils/StringUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/iuiuu/utils/DateUtil.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/iuiuu/IdCardNoTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/iuiuu/utils/IdCardUtil.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/iuiuu/IdCardNoTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/iuiuu/utils/StringUtil.java" />
       </list>
     </option>
   </component>
@@ -232,7 +241,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535096091586" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535103863076" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -279,6 +288,15 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
@@ -301,7 +319,7 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32876712" />
       <window_info anchor="right" id="Palette" />
       <window_info anchor="right" id="Theme Preview" />
       <window_info anchor="right" id="Capture Analysis" />
@@ -320,7 +338,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/iuiuu/utils/IdCardUtil.java</url>
-          <line>51</line>
+          <line>53</line>
           <properties />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
@@ -335,31 +353,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/src.zip!/java/lang/String.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/src.zip!/java/util/Date.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="610" selection-start-line="610" selection-end-line="610" />
-          <folding>
-            <element signature="e#22485#22486#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-783">
+          <caret line="92" column="7" lean-forward="true" selection-start-line="92" selection-start-column="7" selection-end-line="92" selection-end-column="55" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/iuiuu/utils/StringUtil.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="-131">
+          <caret line="2859" column="42" lean-forward="true" selection-start-line="2859" selection-start-column="42" selection-end-line="2859" selection-end-column="42" />
           <folding>
-            <element signature="e#193#194#0" expanded="true" />
-            <element signature="e#249#250#0" expanded="true" />
+            <element signature="e#22450#22451#0" expanded="true" />
+            <element signature="e#22485#22486#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/iuiuu/utils/DateUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+        <state relative-caret-position="95">
+          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#537#538#0" expanded="true" />
@@ -368,28 +383,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/src.zip!/java/util/Date.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/iuiuu/utils/IdCardUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-783">
-          <caret line="92" column="7" lean-forward="true" selection-start-line="92" selection-start-column="7" selection-end-line="92" selection-end-column="55" />
+        <state relative-caret-position="-3782">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2481#2482#0" expanded="true" />
+            <element signature="e#2549#2550#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/iuiuu/IdCardNoTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="8" column="39" lean-forward="true" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+        <state relative-caret-position="214">
+          <caret line="28" column="70" lean-forward="true" selection-start-line="28" selection-start-column="70" selection-end-line="28" selection-end-column="70" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/iuiuu/utils/IdCardUtil.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/iuiuu/utils/StringUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1521">
-          <caret line="126" column="18" selection-start-line="126" selection-start-column="18" selection-end-line="126" selection-end-column="18" />
+        <state relative-caret-position="360">
+          <caret line="140" column="34" selection-start-line="140" selection-start-column="25" selection-end-line="140" selection-end-column="34" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2481#2482#0" expanded="true" />
-            <element signature="e#2549#2550#0" expanded="true" />
+            <element signature="e#193#194#0" expanded="true" />
+            <element signature="e#249#250#0" expanded="true" />
+            <element signature="e#727#728#0" expanded="true" />
+            <element signature="e#779#780#0" expanded="true" />
+            <element signature="e#1550#1551#0" expanded="true" />
+            <element signature="e#1603#1604#0" expanded="true" />
           </folding>
         </state>
       </provider>

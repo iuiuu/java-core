@@ -1,6 +1,7 @@
 package com.iuiuu;
 
 import com.iuiuu.utils.IdCardUtil;
+import com.iuiuu.utils.StringUtil;
 
 public class IdCardNoTest {
     public static void main(String[] args) throws Exception {
@@ -21,7 +22,10 @@ public class IdCardNoTest {
 //            System.out.println(IdCardUtil.getDate(idCardNo));
 //            System.out.println(IdCardUtil.getBirthday(idCardNo));
 //            System.out.println(IdCardUtil.getCurrentAge(idCardNo));
-            System.out.println(IdCardUtil.getSex(idCardNo));
+//            System.out.println(IdCardUtil.getSex(idCardNo));
         }
+
+        System.out.println(StringUtil.commonSuffix("fs1", "afs"));
+        System.out.println(StringUtil.commonSuffix("aaafs1", "fdafs1"));
     }
 }
