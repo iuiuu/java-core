@@ -27,5 +27,7 @@ public class IdCardNoTest {
 
         System.out.println(StringUtil.commonSuffix("fs1", "afs"));
         System.out.println(StringUtil.commonSuffix("aaafs1", "fdafs1"));
+        System.out.println(StringUtil.trim("aeeeacb33eeea", new char[]{'a'}));
+        System.out.println(StringUtil.trim("aeeeacb33eeea", new char[]{'a', 'e'}));
     }
 }

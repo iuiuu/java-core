@@ -1,5 +1,6 @@
 package com.iuiuu.utils;
 
+
 public final class StringUtil {
     private StringUtil() {
     }
@@ -84,6 +85,79 @@ public final class StringUtil {
             sb.append(paddingChar);
         }
         return sb.toString();
+    }
+
+    public static String trim(String str, char trimChar) {
+        char[] val = str.toCharArray();
+        int len = val.length;
+        int st = 0;
+
+        while ((st < len) && (val[st] == trimChar)) {
+            st++;
+        }
+        while ((st < len) && (val[len - 1] == trimChar)) {
+            len--;
+        }
+        return ((st > 0) || (len < val.length)) ? str.substring(st, len) : str;
+    }
+
+    public static String trim(String str, char[] trimChars) {
+        char[] val = str.toCharArray();
+        int len = val.length;
+        int st = 0;
+
+        while (st < len && ArrayUtil.contains(trimChars, val[st])) {
+            st++;
+        }
+        while (st < len && ArrayUtil.contains(trimChars, val[len - 1])) {
+            len--;
+        }
+        return ((st > 0) || (len < val.length)) ? str.substring(st, len) : str;
+    }
+
+    public static String trimStart(String str, char[] trimChars) {
+        char[] val = str.toCharArray();
+        int len = val.length;
+        int st = 0;
+
+        while (st < len && ArrayUtil.contains(trimChars, val[st])) {
+            st++;
+        }
+
+        return (st > 0) ? str.substring(st, len) : str;
+    }
+
+    public static String trimStart(String str, char trimChar) {
+        char[] val = str.toCharArray();
+        int len = val.length;
+        int st = 0;
+
+        while ((st < len) && (val[st] == trimChar)) {
+            st++;
+        }
+        return (st > 0) ? str.substring(st, len) : str;
+    }
+
+    public static String trimEnd(String str, char[] trimChars) {
+        char[] val = str.toCharArray();
+        int len = val.length;
+        int st = 0;
+
+        while (st < len && ArrayUtil.contains(trimChars, val[len - 1])) {
+            len--;
+        }
+        return (len < val.length) ? str.substring(st, len) : str;
+    }
+
+    public static String trimEnd(String str, char trimChar) {
+        char[] val = str.toCharArray();
+        int len = val.length;
+        int st = 0;
+
+        while ((st < len) && (val[len - 1] == trimChar)) {
+            len--;
+        }
+        return (len < val.length) ? str.substring(st, len) : str;
     }
 
     /**
