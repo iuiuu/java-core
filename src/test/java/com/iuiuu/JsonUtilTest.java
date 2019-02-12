@@ -1,8 +1,11 @@
 package com.iuiuu;
 
+import com.iuiuu.utils.Base64Util;
 import com.iuiuu.utils.DateUtil;
 import com.iuiuu.utils.JsonUtil;
+import com.iuiuu.utils.RandomUtil;
 
+import java.nio.charset.StandardCharsets;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.LinkedList;
@@ -46,5 +49,11 @@ public class JsonUtilTest {
 
         Date date = DateUtil.stringToDate("19970230", "yyyyMMdd");
         System.out.println(date);
+
+        for(int i = 0 ; i < 100; i++)
+        System.out.println(RandomUtil.randInt(10));
+
+        System.out.println(Base64Util.encode("ii".getBytes(StandardCharsets.UTF_8)));
+
     }
 }
